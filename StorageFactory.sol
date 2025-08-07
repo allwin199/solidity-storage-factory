@@ -14,6 +14,7 @@ contract StorageFactory{
     function createSimpleStorageContract() public {
         SimpleStorage newSimpleStorage = new SimpleStorage();
         listOfsimpleStorageContracts.push(newSimpleStorage);
+        // new keyword tells solidity to deploy a contract
         // Create a new instance of the SimpleStorage contract
         // Assign the newly created instance to the newSimpleStorage variable
     }
